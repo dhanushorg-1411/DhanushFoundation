@@ -567,6 +567,9 @@ details[open] summary ~ * {
   .app__buttons {
     grid-template-columns: max-content;
   }
+   .error{
+    display:none;
+  }
 }
 
 /* For medium devices */
@@ -606,6 +609,9 @@ details[open] summary ~ * {
   .about__img,
   .app__img {
     order: -1;
+  }
+  .error{
+    display:none;
   }
 }
 
