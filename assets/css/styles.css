@@ -567,9 +567,10 @@ details[open] summary ~ * {
   .app__buttons {
     grid-template-columns: max-content;
   }
-   .error{
-    display:none;
+  #error{
+    display:none:
   }
+
 }
 
 /* For medium devices */
@@ -610,9 +611,7 @@ details[open] summary ~ * {
   .app__img {
     order: -1;
   }
-  .error{
-    display:none;
-  }
+
 }
 
 @media screen and (min-width: 767px) {
